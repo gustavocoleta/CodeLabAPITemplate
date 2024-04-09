@@ -15,8 +15,12 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Hello CodeLab!"', () => {
+      expect(appController.getHello()).toBe('Hello CodeLab!');
+    });
+
+    it('should return <> "Hello CodeLab!"', () => {
+      expect(appController.getHello()).not.toBe('ABC');
     });
   });
 });
