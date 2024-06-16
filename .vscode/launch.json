@@ -9,7 +9,7 @@
       "request": "attach",
       "restart": true,
       "name": "Debug API",
-      "port": 7002,
+      "port": 7000, //TODO change debug port
       "address": "0.0.0.0",
       "localRoot": "${workspaceFolder}/",
       "skipFiles": ["<node_internals>/**", "node_modules/**"],
